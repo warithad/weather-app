@@ -1,0 +1,87 @@
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;    
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #94a3b8;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+/* header */
+#header {
+    background-color: #134e4a;
+    font-family: nunito-bold;
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* main */
+#main {
+    height: 100%;
+}
+
+#request-form{
+
+}
+
+#request-input{
+
+}
+
+#submit-button{
+    
+}
+
+#weather-card{
+
+}
+
+/* footer */
+#footer {
+    background-color: #134e4a;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#footer-text{
+    font-family: nunito-regular;
+}
+
+#github-logo{
+    width: 2rem;
+    height: 2rem;
+    transition: .3s;
+}
+
+#github-logo:hover{
+    scale: 1.1;
+    transform: rotate(120deg);
+}
+
+@font-face {
+    font-family: nunito-regular;
+    src: url('../assets/fonts/NunitoSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: nunito-bold;
+    src: url('../assets/fonts/NunitoSans-ExtraBold.ttf');
+}
+

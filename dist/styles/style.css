@@ -3,10 +3,13 @@
     padding: 0;    
 }
 
+html {
+    background-color: #94a3b8;
+}
+
 #container {
     width: 100vw;
-    height: 100vh;
-    background-color: #94a3b8;
+    height: 120vh;
 
     display: flex;
     flex-direction: column;
@@ -18,7 +21,7 @@
 #header {
     background-color: #134e4a;
     font-family: nunito-bold;
-    font-size: 2rem;
+    font-size: 3vw;
     padding-top: 1rem;
     padding-bottom: 1rem;
 
@@ -30,22 +33,42 @@
 /* main */
 #main {
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
 }
 
 #request-form{
-
+    height: 2rem;
 }
 
 #request-input{
-
+    outline: none;
+    width: 15rem;
+    height: 100%;
+    border: none;
+    border-radius: 4px;
 }
 
 #submit-button{
-    
+    height: 100%;
+    width: 5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    translate: 300ms;
+}
+
+#submit-button:hover{
+    scale: 1.05;
 }
 
 #weather-card{
-
+    background-color: white;
+    width: 21rem;
+    height: 25rem;
 }
 
 /* footer */
@@ -62,6 +85,7 @@
 
 #footer-text{
     font-family: nunito-regular;
+    font-size: 2vw;
 }
 
 #github-logo{

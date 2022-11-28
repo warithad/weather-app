@@ -16,7 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_ui__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/ui */ \"./src/modules/ui.js\");\n\n\n_modules_ui__WEBPACK_IMPORTED_MODULE_0__[\"default\"].activateSearchButton();\n\n\n//# sourceURL=webpack://weather-app/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_ui__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/ui */ \"./src/modules/ui.js\");\n\n\n_modules_ui__WEBPACK_IMPORTED_MODULE_0__[\"default\"].activateSearchButton();\n\nwindow.onload = () => {\n    document.getElementById('weather-card').setAttribute('hidden');\n}\n\n\n//# sourceURL=webpack://weather-app/./src/index.js?");
 
 /***/ }),
 

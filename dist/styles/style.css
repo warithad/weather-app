@@ -68,7 +68,33 @@ html {
 #weather-card{
     background-color: white;
     width: 21rem;
-    height: 25rem;
+    height: 23rem;
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    border-radius: 5px;
+    font-family: nunito-regular;
+    gap: 1rem;
+}
+
+#city{
+    align-self: center;
+    font-size: 2.5vw;
+}
+
+#temperature{
+    margin-left: 2rem;
+}
+
+.large{
+    font-family: nunito-bold;
+    font-size: 2vw;
+}
+
+.mid{
+    margin-left: 2rem;
+    font-size: 2vw;
 }
 
 /* footer */

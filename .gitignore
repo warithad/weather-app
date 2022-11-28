@@ -1,3 +1,2 @@
 node_modules
-
-./src/modules/apikey.js
+/src/modules/apikey.js

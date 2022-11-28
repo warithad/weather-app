@@ -10,11 +10,11 @@ export default class Weather {
             }
 
             const data = await response.json();
-            const temperature = `Temperature: ${data.main.temp}&#8451`;
-            const feelsLike = `Feels Like: ${data.main.feels_like}&#8451`;
+            const temperature = `Temperature: ${data.main.temp} \u00B0C`;
+            const feelsLike = `Feels Like: ${data.main.feels_like} \u00B0C`;
             const humidity = `Humidity: ${data.main.humidity}%`;
             const windSpeed = `Wind: ${data.wind.speed} km/h`;
-
+            console.log(temperature);
             return {
                 temperature, feelsLike, humidity, windSpeed, city,
             };
